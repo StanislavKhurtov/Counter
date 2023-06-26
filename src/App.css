@@ -1,0 +1,77 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2B2B35;
+    height: 100vh;
+    gap: 20px;
+}
+
+.counter {
+    flex: 0 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #70E3FB;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.display {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-color: #70E3FB;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    border-radius: 10px;
+
+
+}
+
+.buttons {
+    border: 2px solid #70E3FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.active {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-color: #70E3FB;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    border-radius: 10px;
+    color: red;
+}
+
+.btn {
+    background-color:#70E3FB;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.btnActive {
+    background-color:#70E3FB;
+    padding: 5px 20px;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+
